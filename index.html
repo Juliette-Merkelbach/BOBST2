@@ -1,27 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intranet visites BOBST</title>
-    <link rel="stylesheet" href="style.css">
+<html>
+  <head>
+    <title> BOBST Démonstration intranet</title>
+    <meta name="description" content="Démonstration des nouvelles pages internet de BOBST">
+    <meta charset="utf-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="big-container">
-        <div class="container">
-            <div class="content">
-                <h1>INTRANET VISITES BOBST</h1>
-                <h2>Cliquez sur la vidéo ci-dessous pour lancer la démonstration de la page de demande de visite de l'intranet BOBST.</h2>
-                <div class="video-container">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0c646ba5ff.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js" integrity="sha512-..." crossorigin="anonymous"></script>
+    <style>
+      body {
+           background-color: #fdf2f2;
+        }
+    </style> 
+
+    <link href="bobst-INTRANET-V2.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div id="div-container">
+      <div class="card-shadow">
+       <h1>Bienvenue sur la demande de visite intranet de BOBST !</h1>
+        <img id="one-BOBST.png" src="one-BOBST.png" alt="logo one bobst">
+        <p id="intro-text">
+         En visionnant la vidéo de démonstration ci-dessous, découvrez la nouvelle page de demande de visite du site intranet de BOBST.
+        </p><! -- intro-->
+      </div>
+      
+      <div class="card-shadow"><! -- demo-->
+        <h2> Démonstration </h2>
+        <div class="video-container">
                      <video controls autoplay>
                       <source src="./demo-intranet-bobst.mp4" type="video/mp4">
                           Your browser does not support the video tag.
                      </video>
-                </div>
-            </div>      
+      </div>
+  
     </div>
-</body>
+  </body>
 </html>
