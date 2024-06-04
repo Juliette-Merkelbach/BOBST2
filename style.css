@@ -1,58 +1,38 @@
+/*Color, fonts, sizes*/
 
-
-.big-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: white;
-    margin-top: 50px;
-    margin-bottom: 30px;
+h1 {
+ font-size: 32px;
+ color: #ad1212;
+ font-family: "Montserrat", sans-serif;
+ font-weight: 700;
 }
 
-.container {
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #fdf2f2;
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-    max-width: 700px;
-    margin: 20px auto;
-    box-sizing: border-box;
+h2, h3 {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-color:#ad1212 ;
+  color: white;
 }
 
-
-.content {
-    padding: 20px;
-    text-align: center;
+body {
+  background-color: #F5F4F1;
+  color: #333333;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 10;
+  text-align: center;
 }
 
-h1{
-    display: block; /* Assure que chaque titre est sur une nouvelle ligne */
-    padding: 5px;
-    color: #ad1212;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+p {
+  font-style: italic;
 }
 
-
-h2 {
-    display: block; /* Assure que chaque titre est sur une nouvelle ligne */
-    padding: 5px;
-    font-size: 15px;
-    font-style: italic;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: italic;
-    max-width: 90%;
-    margin: 0 auto;
+img {
+  max-width: 30%;
+  margin-bottom: 30px;
 }
 
 .video-container {
@@ -60,7 +40,6 @@ h2 {
     height: auto; /* Hauteur fixe, en conservant le rapport d'aspect 16:9 */
     text-align: center;
     margin: 20px;
-    border: 2px solid black;
 
 }
 
@@ -76,6 +55,43 @@ h2 {
     margin: 0 auto; /* Centre la vidéo horizontalement */
     padding-bottom: 20px;
 }
+
+/*Custom designs*/
+
+
+}
+#intro-text {
+  padding-top: 30px;
+}
+
+.card-shadow {
+  background: white;
+  padding: 20px;
+  padding-top: 15px;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#div-container {
+  background-color:#fdf2f2 ;
+  padding: 30px;
+  border-radius: 4px;
+  width: 900px;
+  margin:auto;
+}
+
+
+.d-block {
+  width: 30%;
+  height:1.5%;
+}
+
+
+
 
 
 
